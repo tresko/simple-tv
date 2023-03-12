@@ -8,9 +8,9 @@ export default defineNuxtConfig({
 
   nitro: {
     routeRules: {
-      "/api/ohlc/**": {
-        swr: 60,
-      },
+      // "/api/ohlc/**": {
+      //   swr: 60,
+      // },
       // "/api/symbols": {
       //   swr: 60 * 60,
       // },

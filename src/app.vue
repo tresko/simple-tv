@@ -35,6 +35,7 @@ if (symbolsData.value) {
     })
   ).then((results) => {
     results.forEach((result) => {
+      console.log(result);
       if (result.status === "fulfilled") {
         symbols.value.push(result.value.data.value);
       }

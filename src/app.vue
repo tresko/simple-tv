@@ -42,5 +42,7 @@ if (symbolsData.value) {
     triggerRef(symbols);
     showChart.value = true;
   });
+} else {
+  console.log(symbolsError.value);
 }
 </script>

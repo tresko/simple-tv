@@ -11,9 +11,9 @@ export default defineNuxtConfig({
       "/api/ohlc/**": {
         swr: 60,
       },
-      "/api/symbols": {
-        swr: 60 * 60,
-      },
+      // "/api/symbols": {
+      //   swr: 60 * 60,
+      // },
     },
   },
 });
